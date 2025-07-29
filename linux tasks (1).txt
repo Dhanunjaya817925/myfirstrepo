@@ -1,0 +1,29 @@
+tasks:
+
+
+1. command to get cpu info using cat command
+2. understand the linux file directory system
+3. alternate command to get RAM informationz
+4. command to get Storage Information
+5. command to see running processors on linux system
+6. command to create a folder inside a folder
+7. command to append a data to a file which are present in folder1
+8. command to copy the data from one file to another file
+9. command to rename a file
+10. diff between > & >> in cat command
+
+
+Answers:
+
+
+1. cat /proc/cpuinfo
+2. Linux uses a tree like directory structure that starts at the root directory /.
+   command: cd / --> bin, boot, dev, etc, home, lib, media, mnt, opt, proc, root, run, sbin, tmp, usr, var.
+3. cat /proc/meminfo
+4. df -h
+5. top or ps -aux
+6. mkdir -p folder1/folder2
+7. cat >> folder1/folder2/aws
+8. cp source_file destination_file
+9. mv old_filename new_filename
+10. > means overwrite the data and >> append the data.
